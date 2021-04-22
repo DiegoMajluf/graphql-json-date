@@ -1,0 +1,32 @@
+{
+  "name": "graphql-json-date",
+  "version": "1.0.1",
+  "description": "GraphQL DateType",
+  "main": "index.js",
+  "scripts": {
+    "publicar": "tsc -d && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMajluf/graphql-json-date.git"
+  },
+  "keywords": [
+    "Graphql",
+    "date"
+  ],
+  "author": "Diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoMajluf/graphql-json-date/issues"
+  },
+  "homepage": "https://github.com/DiegoMajluf/graphql-json-date#readme",
+  "dependencies": {
+    "assert-err": "^1.1.0"
+  },
+  "peerDependencies": {
+    "graphql": ">=0.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
